@@ -48,4 +48,24 @@ git log
 :: si on veut créer une nouvelle branche : git branch alien-plot (nom de la nouvelle branche "alien-plot")
 :: git branch -> commande pour afficher les différentes branches 
 :: git checkout alien-plot -> pour changer de branche (le petit point/asterisque à côté du nom de branche indique la branche sur laquelle on se situe)
-:: 
+:: git status apres git add. pour regarder ce qu'il y a en zone de transit et git log pour voir sur la branche actuelle les differentes versions.
+:: si je veux fusuonner les modifs de l'autre branche avec la branche principale : git merge alien-plot, je peux aussi le faire en ligen sur git hub direct. 
+
+
+
+::::::::::::::::::::
+
+
+
+:: si on travaille sur un projet groupé open source code on peut faire une demande de pull ... quelqu'un recupere mon code, il le clone en local puis le push sur son respository puis fais une demande pull pour le merge 
+:: avec mon code de base... on peut accepter la demande de pull ou refuser. 
+::: pour copier un resposirory sur notre propre compte github on fait "FORK", c pareil que le clonage mais du coup pas en local mais direct sur git hub.
+:: on peut voir dans l'onglet "insights" et "network" dans notre compte l'historique des versions etc.... 
+::on peut voir les gens qui ont "forked" notre repository !
+::apres avoir foreked et travaillé on peut faire une demande pull request.. après l'auteur de base peut accepter ou refuser :-)
+
+
+:::::::::::::::::::
+
+
+
